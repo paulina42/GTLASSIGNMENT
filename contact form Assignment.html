@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <style>
+        body{
+            margin-left: 150px;
+            margin-top: 100px;
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            text-align: center;
+            color:black ;
+            text-transform: uppercase;
+        }
+        form{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+        }
+        .mainbox{
+            background-color:  #EAF0F1;
+            padding: 15px 15px;
+            border-radius: 25px;
+            margin-top: 10px;
+            width: 20cm;
+            height: 15cm;
+        }
+        label{
+            margin-left: 0.5cm;
+        }
+        input{
+            padding: 15px;
+            border-radius:5px;
+            margin-top: 10px;
+            width: 18cm;
+            margin-left: 0.5cm;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+        }
+        select{
+            padding: 15px;
+            border-radius:5px;
+            margin-top: 10px;
+            margin-left: 0.5cm;
+            width: 19cm;
+            align-content: center; 
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium; 
+        }
+        textarea{
+            padding: 15px;
+            border-radius:15px;
+            margin-top: 10px;
+            margin-left: 0.5cm;
+            width: 18cm;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+        }
+        button{
+            border: 0;
+            background: #2ecc71;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            border: 2px solid #2ecc71;
+            padding: 14px 60px;
+            color: white;
+            border-radius: 24px;
+            cursor: pointer;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="mainbox">
+        <h1>CONTACT FORM</h1>
+        <form>
+            <div>
+                <label>First Name</label><br>
+                <input type="text" placeholder="First Name"><br>
+
+                <label>Last Name</label><br>
+                <input type="text" placeholder="Last Name"><br>
+
+                <label for="">Country</label><br>
+                <select id="" name="">
+                    <option value="">Ghana</option>
+                    <option value="">South Africa</option>
+                    <option value="">Uganda</option>
+                    <option value="">Nigeria</option>
+                    <option value="">United Kingdom</option>
+                    <option value="">United State</option>
+                    <option value="">Togo</option>
+                    
+                </select><br>
+                <label for="">Subject</label><br>
+                <textarea id="" name="" rows="4" cols="50">Write Something...</textarea><br>
+
+                <button type="submit"> submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
